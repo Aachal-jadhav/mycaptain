@@ -1,0 +1,10 @@
+a={2,4,9,6,8}
+b={40,20,7,5,1,9,4,8}
+c=a.union(b)
+print(c)
+d=a.intersection(b)
+print(d)
+e=a.difference(b)
+print(e)
+f=a.symmetric_difference(b)
+print(f)
